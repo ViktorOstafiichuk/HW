@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.bgc-blue {
+    background-color: #071438;
+}
+
+.bgc-grey {
+    background-color: #797979;
+}
+
+.bgc-violet {
+    background-color: #541a80;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.box-1 {
+    height: 25vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-1 > div {
+    width: 200px;
+    height: 50px;
+
+    border-radius: 7px;
+    margin-left: 100px;
+
+}
+
+.box-2 {
+    position: relative;
+    height: 50vh;
+
+}
+
+.box-2 > .father {
+    display: flex;
+    gap: 25px;
+    position: absolute;
+
+    bottom: -100px;
+    left: calc(100vw / 2 - ((200px * 3) + 50px) / 2);
+}
+
+.box-2 > .father > div {
+    border-radius: 12px;
+}
+
+.box-3 {
+    height: 25vh;
+}
+
+.icon {
+    font-size: 35px;
+    display: flex;
+    gap: 30px;
+}

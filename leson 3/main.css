@@ -1,0 +1,94 @@
+body {
+    margin: 0 ;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, div {
+    margin: 0;
+}
+
+.father {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.wrap {
+    position: relative;
+
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    padding: 0 25px;
+
+    border: 2px solid grey;
+
+}
+
+.icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: -40px;
+    left: calc((300px / 2) - 40px);
+
+    width: 80px;
+    height: 80px;
+    border: 1px grey solid;
+    border-radius: 50%;
+    background-color: #fff;
+
+    color: #ff9900;
+}
+
+.icon>i {
+    font-size: 24px;
+
+}
+
+.icon>i.fa-regular {
+    font-size: 30px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 70px;
+}
+
+p {
+    margin-top: 25px;
+    text-align: center;
+    line-height: 38px;
+
+    color: #797979;
+}
+
+.button {
+    margin-top: 25px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: center;
+
+}
+
+div.button > a {
+    display: block;
+    width: 150px;
+    height: 40px;
+
+    text-decoration: none;
+    color: black;
+}
